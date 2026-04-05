@@ -1,5 +1,6 @@
 {
-  "name": "greenspike02",
+  "homepage": "https://greenspikeorganics.com",
+  "name": "greenspikeorganics",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && git add -A && git commit -m 'Deploy to GitHub Pages' && git push"
+    "deploy": "npm run build && git add dist -f && git commit -m 'Deploy to GitHub Pages' && git push"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
