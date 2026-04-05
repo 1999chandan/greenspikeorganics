@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+dist
 dist-ssr
 *.local
 
@@ -17,6 +18,12 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
+
+# Keep built assets for GitHub Pages
+!assets/
+!favicon.svg
+!icons.svg
+!index.html
 *.ntvs*
 *.njsproj
 *.sln
